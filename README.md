@@ -4,7 +4,7 @@ Sam Hill
 
 | Day            | Puzzle 1 Time  |  Puzzle 2 Time |
 | -------------- | -------------- | -------------- |
-| 1              | 10:30 PM Start |                |
+| 1              | 15 minutes     |                |
 | 2              |                |                |
 | 3              |                |                |
 | 4              |                |                |

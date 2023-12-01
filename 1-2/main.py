@@ -10,7 +10,7 @@ calibration_file.close()
 # Go through each line and convert the complete words into digits
 # We can't just use replace, because "twone" will become 1 instead of 2
 def wordsToDigits(line):
-    words = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"]
+    words = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
     buffer = ""
     output = line
 
@@ -32,7 +32,7 @@ def wordsToDigits(line):
 
             if len(matched_words) > 0:
                 # Replace in the output string
-                output = output.replace(buffer, str(words.index(matched_words[0]) + 1) + buffer[1:], 1)
+                output = output.replace(buffer, str(words.index(matched_words[0])) + buffer[1:], 1)
                 if len(buffer) > 1:
                     buffer = buffer[1:]
                     continueLoop = False

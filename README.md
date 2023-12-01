@@ -4,7 +4,7 @@ Sam Hill
 
 | Day            | Puzzle 1 Time  |  Puzzle 2 Time |
 | -------------- | -------------- | -------------- |
-| 1              | 15 minutes     |                |
+| 1              | 15 minutes     | 1 hour         |
 | 2              |                |                |
 | 3              |                |                |
 | 4              |                |                |

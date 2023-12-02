@@ -42,16 +42,12 @@ for line in data:
                     number = int(picked_color.split(" ")[0])
                     largest[color] = max(number, largest[color])
 
-    valid = (
-        largest["red"] <= max_red,
-        largest["green"] <= max_green,
-        largest["blue"] <= max_blue
-    )
+    power = largest["red"] * largest["green"] * largest["blue"]
 
-    results.append(valid)
+    results.append(power)
 
 # Calculate the IDs of the invalid games
 
-valid_games = [ i+1 for i in range(len(results)) if all(results[i]) ]
+# valid_games = [ i+1 for i in range(len(results)) if all(results[i]) ]
 
-print( str(sum(valid_games)) )
+print( str(sum(results)) )

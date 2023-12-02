@@ -1,7 +1,7 @@
 import re
 
 # Read the input file
-calibration_file = open("1-1/input.txt", "r")
+calibration_file = open("day1/input.txt", "r")
 calibration = calibration_file.readlines()
 calibration_file.close()
 

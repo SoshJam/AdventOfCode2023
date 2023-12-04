@@ -7,7 +7,7 @@ Sam Hill
 | 1              | 15 minutes     | 1 hour         |
 | 2              | 20 minutes     | 5 minutes      |
 | 3              | 20 minutes     | 50 minutes     |
-| 4              | 11 pm start    |                |
+| 4              | 10 minutes     | 5 minutes      |
 | 5              |                |                |
 | 6              |                |                |
 | 7              |                |                |

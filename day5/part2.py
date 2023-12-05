@@ -102,9 +102,6 @@ def slice_method(original_start_point):
     start_point = original_start_point
     start_range = -1
 
-    if start_point == 46:
-        print("",end="")
-
     for map_index in range(len(maps) - 1, -1, -1):
         map = maps[map_index]
 

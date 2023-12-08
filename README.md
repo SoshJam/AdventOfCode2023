@@ -10,7 +10,7 @@ Sam Hill
 | 4              | 10 minutes     | 5 minutes      |
 | 5              | 30 minutes     | 2 hours        |
 | 6              | 15 minutes     | 20 minutes     |
-| 7              | 40 minutes     |                |
+| 7              | 40 minutes     | 2 minutes      |
 | 8              |                |                |
 | 9              |                |                |
 | 10             |                |                |
